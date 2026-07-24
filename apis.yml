@@ -1,7 +1,13 @@
 aid: cabinet-health
 name: Cabinet Health
-description: Cabinet Health is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Cabinet Health is an end-to-end supply chain platform for private-label
+  over-the-counter (OTC) medicines. The company develops, sources, manufactures, and
+  delivers OTC products across 70+ active ingredients in tablet, softgel, capsule, liquid,
+  powder, gummy, and chewable formats to retailers, wholesalers, and online marketplaces,
+  emphasizing sustainable, refillable packaging and quality assurance at scale. Cabinet
+  also produces its own certified B Corp consumer brand sold on Amazon and Target. It
+  was surfaced as a Techstars portfolio company and added to the API Evangelist network;
+  no public developer or API surface has been found for this provider.
 url: https://raw.githubusercontent.com/api-evangelist/cabinet-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Pharmaceuticals
+- Over-the-Counter Medicine
+- Supply Chain
+- Consumer Packaged Goods
+- Sustainability
+- Private Label
+image: https://cabinethealth.com/favicon.ico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cabinet-health-domain-security.yml
 - type: Website
-  url: https://wearecabinet.com/
+  url: https://cabinethealth.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/cabinet-health/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
